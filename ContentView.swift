@@ -9,7 +9,7 @@ struct ContentView: View {
             TextField("Enter Integer", value: $number1, format: .number)
             TextField("Enter Integer", value: $number2, format: .number)
             Button("Multiply"){
-                
+                answer = number1 * number2
             }
             Button("Divide"){
                 
