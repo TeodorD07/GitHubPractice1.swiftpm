@@ -53,6 +53,7 @@ struct ContentView: View {
             Text ("\(answer)")
                 .bold()
                 .padding()
+            Text("hello")
         }
     }
 }
